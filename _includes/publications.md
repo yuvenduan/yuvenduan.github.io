@@ -19,14 +19,13 @@
 
 <li>
 <div class="pub-row">
-<div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+  <div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"> Human-like Capacity Limits in Working Memory Models Result from Naturalistic Sensory Constraints </div>
     <div class="author"> Yudi Xie*, <strong>Yu Duan*</strong>, Aohua Cheng, Pengcen Jiang, Christopher Cueva, Guangyu Robert Yang </div>
     <div class="periodical"><em> Computational and Systems Neuroscience <strong> (COSYNE 2023) </strong></em></div>
   </div>
-</div>
 <br>
-<div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+  <div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"> <a href="https://2022.ccneuro.org/view_paper.php?PaperNum=1251"> Human-like capacity limitation in multi-system models of working memory </a></div>
     <div class="periodical"><em> Conference on Cognitive Computational Neuroscience <strong> (CCN 2022) </strong></em></div>
     <div class="links">
@@ -35,7 +34,6 @@
   </div>
 </div>
 </li>
-
 <br>
 
 </ol>
