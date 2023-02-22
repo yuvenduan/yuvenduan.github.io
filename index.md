@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-My name is Yu (Yuven) Duan (in Chinese: 段昱). I am a senior undergraduate student at Institute for Interdisciplinary Information Sciences at Tsinghua University, studying artificial intelligence. I am currently a member of **[MetaConscious Group](https://www.metaconscious.org/)** led by Prof. **[Guangyu Robert Yang](https://guangyuyang.org/)**, where I am working on multi-system models of working memory. Previously, at Tsinghua, I worked at **[ARChip Lab](http://people.iiis.tsinghua.edu.cn/~maks/)** with Prof. Kaisheng Ma and Prof. Yi Zhong on brain-inspired neural networks and AI algorithms.
+My name is Yu Duan (in Chinese: 段昱). I am a senior undergraduate student at Institute for Interdisciplinary Information Sciences at Tsinghua University, studying artificial intelligence. I am currently a member of **[MetaConscious Group](https://www.metaconscious.org/)** led by Prof. **[Guangyu Robert Yang](https://guangyuyang.org/)**, where I am working on multi-system models of working memory. Previously, at Tsinghua, I worked at **[ARChip Lab](http://people.iiis.tsinghua.edu.cn/~maks/)** with Prof. Kaisheng Ma and Prof. Yi Zhong on brain-inspired neural networks and AI algorithms.
 
 My research interest lies at the intersection of machine learning, neuroscience, and cognitive science. By constructing system-level models of the brain (mainly neural networks for now), I plan to:
 * Relate neural mechanisms (e.g., synaptic plasticity, neuromodulation) and brain structures (e.g., connectivity) to high-level cognitive processes;

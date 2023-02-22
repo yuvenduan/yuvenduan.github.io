@@ -6,11 +6,12 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openreview.net/pdf?id=2WklawyeI08"> Hebbian and Gradient-based Plasticity Enables Robust Memory and Rapid Learning in RNNs </a></div>
+    <div class="title"><a href="https://openreview.net/forum?id=2WklawyeI08"> Hebbian and Gradient-based Plasticity Enables Robust Memory and Rapid Learning in RNNs </a></div>
     <div class="author"><strong>Yu Duan</strong>, Zhongfan Jia, Qian Li, Yi Zhong, Kaisheng Ma </div>
     <div class="periodical"><em> International Conference on Learning Representations <strong> (ICLR 2023) </strong></em></div>
     <div class="links">
       <a href="https://openreview.net/pdf?id=2WklawyeI08" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/yuvenduan/PlasticRNNs" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
   </div>
 </div>
