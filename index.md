@@ -11,7 +11,7 @@ For research, I am broadly interested in using machine learning tools to advance
 * Developing or applying novel machine learning tools to help collect and analyze experimental data; 
 * Explaining experimental findings in a goal-driven manner, where the goal could be modeled as loss function/reward in the supervised learning/RL framework.
 
-In my free time, I enjoy playing piano and video games. I am a fan of both rock and classical music so I often go to concerts. Apart from that, I also love running along the Charles River.
+In my free time, I enjoy playing video games, hiking / skiing in the New England forests. I’m a fan of both rock and classical music, and I also love running along the Charles River.
 
 {% include_relative _includes/publications.md %}
 
