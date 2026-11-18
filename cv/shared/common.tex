@@ -1,0 +1,34 @@
+% Shared bits used by all CV / resume variants.
+
+\newcommand{\linkedinurl}{https://www.linkedin.com/in/yu-duan-a15617308/}
+
+% Contact line for resumes (plain-text URLs are easier for ATS parsers and print)
+\newcommand{\resumecontact}{%
+\begin{center}\small
+    \faCenter{envelope}~\href{mailto:duany19@mit.edu}{duany19@mit.edu} \enspace
+    \faCenter{globe}~\href{https://yuvenduan.github.io}{yuvenduan.github.io} \enspace
+    \faCenter{github}~\href{https://github.com/yuvenduan}{github.com/yuvenduan} \enspace
+    \faCenter{linkedin}~\href{\linkedinurl}{linkedin.com/in/yu-duan-a15617308}
+\end{center}\vspace{-4pt}}
+
+% Honors in the academic (date-column) layout
+\newcommand{\honorslist}{%
+\dateentry{2022}{Scholarship for Scientific Innovation, Tsinghua University}
+\dateentry{2021}{Scholarship for Academic Excellence, Tsinghua University}
+\dateentry{2019}{Freshman Scholarship, Tsinghua University}
+\dateentry{2017}{Gold Medal, National Olympiad in Informatics (NOI), China}}
+
+% Honors for resumes
+\newcommand{\honorsresume}{%
+\begin{bullets}
+\item Gold Medal, National Olympiad in Informatics (NOI), China \hfill 2017
+\item Scholarship for Scientific Innovation, Tsinghua University \hfill 2022
+\item Scholarship for Academic Excellence, Tsinghua University \hfill 2021
+\item Freshman Scholarship, Tsinghua University \hfill 2019%
+\end{bullets}}
+
+% Skills (academic CV); resumes define their own, targeted skills lists.
+% TODO: add tools you actually use (e.g. multi-GPU / distributed training, SLURM, Hugging Face, W&B).
+\newcommand{\skillsline}{%
+\textbf{Programming:} Python, C/C++; PyTorch, JAX, scikit-learn. \\
+\textbf{Methods:} transformers, diffusion and flow matching, post-training (SFT / RL), RNNs, neural data analysis.}

@@ -1,0 +1,65 @@
+% Industry resume targeting neurotechnology (BCI companies, neuro groups in big tech).
+\documentclass[resume]{clean_cv}
+\hypersetup{pdftitle={Yu Duan - Resume}, pdfauthor={Yu Duan}}
+
+\InputIfFileExists{../private/reviewvenue.tex}{}{\newcommand{\reviewvenue}{Under review}}
+\input{shared/publications}
+\input{shared/common}
+
+\author{Yu Duan}
+
+\begin{document}
+
+\maketitle
+\resumecontact
+
+\section{Education}
+\entry{Massachusetts Institute of Technology}{Sep 2023 -- Jun 2028 (expected)}
+  {Ph.D.\ in Electrical Engineering and Computer Science; advisor: Prof.\ Kanaka Rajan}{Cambridge, MA}
+\vspace{4pt}
+\entry{Tsinghua University, Institute for Interdisciplinary Information Sciences}{Sep 2019 -- Jun 2023}
+  {B.Eng.\ in Computer Science and Technology}{Beijing, China}
+
+\section{Research Experience}
+\entry{Foundation Models of Neural Dynamics}{Feb 2024 -- present}
+  {Rajan Lab, MIT and Kempner Institute, Harvard; with Karl Deisseroth (Stanford)}{Cambridge, MA}
+\begin{bullets}
+\item \textbf{Neural foundation model:} first author of POCO (NeurIPS 2025), a transformer pretrained on calcium imaging across sessions and species (zebrafish, mouse, \textit{C.~elegans}) that forecasts single-neuron activity and adapts rapidly to new recordings.
+\item \textbf{Predicting stimulation responses:} multi-animal models trained on optogenetic (\textit{C.~elegans}, 113 animals) and holographic photostimulation (mouse motor cortex) data predict responses to never-stimulated targets; toward in-silico testing of stimulation and closed-loop control.
+\item \textbf{Generative models and decoding:} flow-matching models of stochastic neural dynamics that forecast a rat's upcoming choice from frontal-cortex / striatal population activity, with uncertainty that resolves over the trial; energy-score metrics for distributional evaluation.
+\end{bullets}
+
+\entry{Earlier Research}{Mar 2021 -- Dec 2023}
+  {MIT Brain and Cognitive Sciences (visiting student); Tsinghua University}{}
+\begin{bullets}
+\item RNNs with learned Hebbian plasticity for rapid learning (ICLR 2023, first author); multi-system models of working memory (COSYNE 2023, co-first) and of the fly mushroom body; fMRI encoding with vision-language models.
+\end{bullets}
+
+\section{Industry Experience}
+\entry{Adobe}{May 2026 -- Aug 2026}{Research Scientist Intern}{}
+\begin{bullets}
+\item Supervised fine-tuning (SFT) of Adobe's in-house image-editing foundation model for continuous, physically grounded edits, alongside reinforcement learning (RL) post-training.
+\item First author of SliderField: training-free acceleration of flow/diffusion sampling, 4--5$\times$ fewer model calls; co-developed an agentic VLM verifier used as an RL reward.
+\end{bullets}
+
+\section{Skills}
+\textbf{ML:} transformers, foundation models, diffusion and flow matching, RNNs, post-training (SFT / RL); PyTorch, JAX, Python, C/C++ \\
+\textbf{Neuroscience:} neural population dynamics, calcium imaging (two-photon, whole-brain), electrophysiology, optogenetic / holographic stimulation, neural decoding, dynamical-systems models (rSLDS, LFADS)
+
+\section{Publications}
+\begin{publist}
+\pubPOCO
+\pubCosyneCausal
+\pubCosyneDist
+\pubHebbian
+\pubNMRNN
+\pubWM
+\pubSlider
+\pubVerify
+\end{publist}
+{\small $^*$Equal contribution. $^\dagger$Co-senior authors.}
+
+\section{Honors}
+\honorsresume
+
+\end{document}

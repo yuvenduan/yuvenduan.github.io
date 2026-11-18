@@ -1,0 +1,119 @@
+% General academic CV (also used for TA applications).
+% Built by `make` into assets/files/CV.pdf, which the website links to.
+\documentclass{clean_cv}
+\hypersetup{pdftitle={Yu Duan - CV}, pdfauthor={Yu Duan}}
+
+\newcommand{\reviewvenue}{Under review}
+\input{shared/publications}
+\input{shared/common}
+
+\author{Yu Duan}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+    \faCenter{envelope}~\href{mailto:duany19@mit.edu}{duany19@mit.edu} \quad
+    \faCenter{globe}~\href{https://yuvenduan.github.io}{yuvenduan.github.io} \quad
+    \faCenter{github}~\href{https://github.com/yuvenduan}{github.com/yuvenduan} \quad
+    \faCenter{linkedin}~\href{\linkedinurl}{LinkedIn}
+\end{center}
+
+\section{Education}
+\begin{datetabular}{9.6em}
+\dateentry{Sep 2023 -- present}{
+\textbf{Massachusetts Institute of Technology}, Cambridge, MA \\
+Ph.D. in Electrical Engineering and Computer Science \\
+Research advisor: Prof.\ Kanaka Rajan (Kempner Institute, Harvard University)
+}
+\dateentry{Sep 2019 -- Jun 2023}{
+\textbf{Tsinghua University}, Beijing, China \\
+B.Eng.\ in Computer Science and Technology \\
+Institute for Interdisciplinary Information Sciences
+}
+\dateentry{Feb 2022 -- Jul 2022}{
+\textbf{Massachusetts Institute of Technology}, Cambridge, MA \\
+Visiting Student, Department of Brain and Cognitive Sciences
+}
+\end{datetabular}
+
+\section{Research Experience}
+\begin{datetabular}{9.6em}
+
+\dateentry{Feb 2024 -- present}{
+\textbf{Foundation Models of Neural Dynamics} \\
+\textit{Advisor: Prof.\ Kanaka Rajan (Harvard); with Prof.\ Karl Deisseroth (Stanford)}
+\begin{itemize}[leftmargin=1.1em]
+\item Neural forecasting model pretrained across sessions, animals and species \ref{pub:poco}.
+\item Multi-animal models that predict responses to unseen optogenetic stimulation \ref{pub:causal}.
+\item Flow-matching models and distributional tests for stochastic neural dynamics \ref{pub:dist}.
+\end{itemize}\eatvspace}
+
+\dateentry{May 2026 -- Aug 2026}{
+\textbf{Post-training and Efficient Sampling for Image Editing} \\
+\textit{Research Scientist Intern, Adobe}
+\begin{itemize}[leftmargin=1.1em]
+\item Supervised fine-tuning (SFT) of a foundation model for continuous physical edits.
+\item Training-free 4--5$\times$ acceleration of dense editing sliders in flow models \ref{pub:slider}.
+\item Agentic verifier for image editing, used as an RL reward and data filter \ref{pub:verify}.
+\end{itemize}\eatvspace}
+
+\dateentry{Feb 2022 -- Dec 2023}{
+\textbf{Multi-system Models of Working Memory} \\
+\textit{Advisor: Prof.\ Guangyu Robert Yang, Brain and Cognitive Sciences, MIT} \\
+Human-like capacity limits from natural constraints in sensory-cognitive models \ref{pub:wm}.
+}
+
+\dateentry{Mar 2023 -- Jun 2023}{
+\textbf{Predicting fMRI Responses with Vision-Language Models} \\
+\textit{Undergraduate thesis. Advisor: Prof.\ Pei Sun, Department of Psychology, Tsinghua University}
+}
+
+\dateentry{Mar 2021 -- Sep 2022}{
+\textbf{Plastic Recurrent Networks and Models of the Fly Mushroom Body} \\
+\textit{Advisors: Prof.\ Kaisheng Ma and Prof.\ Yi Zhong, Tsinghua University} \\
+Learned Hebbian plasticity in RNNs for robust memory and rapid learning \ref{pub:hebbian}.
+}
+
+\end{datetabular}
+
+\section{Publications}
+\subsection{Conference Papers}\hfill\par
+\begin{publist}
+\pubPOCO
+\pubHebbian
+\end{publist}
+
+\subsection{Manuscripts Under Review}\hfill\par
+\begin{publist}[resume]
+\pubSlider
+\pubVerify
+\end{publist}
+
+\subsection{Conference Abstracts}\hfill\par
+\begin{publist}[resume]
+\pubCosyneCausal
+\pubCosyneDist
+\pubNMRNN
+\pubWM
+\end{publist}
+\hfill{\small $^*$Equal contribution. $^\dagger$Co-senior authors.}
+
+% TODO (TA applications): add teaching / mentoring experience here if you have any, e.g.
+% \section{Teaching and Mentoring}
+% \begin{datetabular}{9.6em}
+% \dateentry{Fall 2025}{\textbf{Teaching Assistant}, 6.XXXX Course Name, MIT \\ Led recitations for N students; held office hours; wrote problem sets}
+% \end{datetabular}
+
+\section{Honors and Awards}
+\begin{datetabular}{9.6em}\setlength{\itemsep}{0pt}
+\honorslist
+\end{datetabular}
+
+\section{Skills}
+\skillsline
+
+\section{Service}
+\textbf{Reviewer:} International Conference on Learning Representations (ICLR)
+
+\end{document}

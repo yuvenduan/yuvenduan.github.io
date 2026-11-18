@@ -1,21 +1,21 @@
 # Basic Information 
 title: Yu Duan
-position: Graduate Student
+position: PhD Student, EECS
 affiliation: Massachusetts Institute of Technology
 email: duany19 @ mit.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Yu Duan, AI, neuroscience, computational neuroscience, machine learning
+keywords: Yu Duan, machine learning, computational neuroscience, neural dynamics, foundation models, generative models, post-training
 description: Yu Duan's academic homepage
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://yuvenduan.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 # google_scholar: https://scholar.google.com/
 cv_link: assets/files/CV.pdf
 github_link: https://github.com/yuvenduan
-# linkedin: https://www.linkedin.com/
+linkedin: https://www.linkedin.com/in/yu-duan-a15617308/
 twitter: https://twitter.com/yuven_duan
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -39,3 +39,5 @@ exclude:
   - README.md
   - LICENSE
   - minimal-light.gemspec
+  - cv
+  - private

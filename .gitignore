@@ -5,3 +5,9 @@ Gemfile.lock
 .DS_Store
 .jekyll-cache
 git-update.sh
+
+# Private reference material (papers under review, etc.) - never commit
+private/
+
+# LaTeX build output for cv/
+cv/build/

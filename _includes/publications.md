@@ -8,11 +8,22 @@
   <div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://openreview.net/forum?id=Xma2G1ak3H"> POCO: Scalable Neural Forecasting through Population Conditioning </a></div>
     <div class="author"> <strong>Yu Duan</strong>, Hamza Tahir Chaudhry, Misha B. Ahrens, Christopher D Harvey, Matthew G Perich, Karl Deisseroth, Kanaka Rajan </div>
-    <div class="periodical"><em> Annual Conference on Neural Information Processing Systems <strong> (NeurIPS 2025) </strong></em></div>
+    <div class="periodical"><em> Annual Conference on Neural Information Processing Systems <strong> (NeurIPS 2025) </strong></em>; also presented at <em>Computational and Systems Neuroscience <strong>(COSYNE 2026)</strong></em></div>
     <div class="links">
       <a href="https://openreview.net/pdf?id=Xma2G1ak3H" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/yuvenduan/POCO" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
+  </div>
+</div>
+</li>
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"> Modeling Rapid Neuromodulation in the Cortex-Basal Ganglia-Thalamus Loop </div>
+    <div class="author"> Julia Costacurta*, <strong>Yu Duan*</strong>, Kanaka Rajan, Scott Linderman, John Assad </div>
+    <div class="periodical"><em> Computational and Systems Neuroscience <strong> (COSYNE 2025) </strong></em></div>
   </div>
 </div>
 </li>

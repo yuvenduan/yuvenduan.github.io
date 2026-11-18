@@ -1,0 +1,64 @@
+% Industry resume targeting AI/ML research internships, especially post-training
+% and generative models (diffusion / flow matching).
+\documentclass[resume]{clean_cv}
+\hypersetup{pdftitle={Yu Duan - Resume}, pdfauthor={Yu Duan}}
+
+\InputIfFileExists{../private/reviewvenue.tex}{}{\newcommand{\reviewvenue}{Under review}}
+\input{shared/publications}
+\input{shared/common}
+
+\author{Yu Duan}
+
+\begin{document}
+
+\maketitle
+\resumecontact
+
+\section{Education}
+\entry{Massachusetts Institute of Technology}{Sep 2023 -- Jun 2028 (expected)}
+  {Ph.D.\ in Electrical Engineering and Computer Science}{Cambridge, MA}
+\vspace{4pt}
+\entry{Tsinghua University, Institute for Interdisciplinary Information Sciences}{Sep 2019 -- Jun 2023}
+  {B.Eng.\ in Computer Science and Technology}{Beijing, China}
+
+\section{Experience}
+\entry{Adobe}{May 2026 -- Aug 2026}{Research Scientist Intern}{}
+\begin{bullets}
+\item \textbf{Post-training:} supervised fine-tuning (SFT) of Adobe's in-house image-editing foundation model for continuous, physically grounded edits, working closely with the reinforcement learning (RL) effort.
+\item \textbf{Inference efficiency:} first author of SliderField, a training-free sampler that predicts skipped flow-model steps with a Gaussian random field; 4--5$\times$ fewer model calls on image and video models (FLUX, Qwen-Image-Edit, Wan2.1), 3.5--27$\times$ closer to full computation than the best caching baseline.
+\item \textbf{Verification and rewards:} co-developed an agentic, tool-using VLM verifier for edit faithfulness (84\% precision, +9 points over baselines), used as an RL reward model, a data filter and for best-of-$K$ selection.
+\end{bullets}
+
+\entry{MIT EECS and Kempner Institute, Harvard (Rajan Lab)}{Feb 2024 -- present}{Graduate Researcher}{Cambridge, MA}
+\begin{bullets}
+\item \textbf{Foundation models for time series:} first author of POCO (NeurIPS 2025), a transformer (Perceiver-IO, FiLM) pretrained on multi-session, multi-species neural recordings that fine-tunes rapidly to new datasets.
+\item \textbf{Generative forecasting:} flow-matching vs.\ Gaussian vs.\ MSE objectives, evaluated with proper scoring rules (energy score); flow matching captures multimodal futures that MSE averages away.
+\item \textbf{Causal generalization:} spatiotemporal transformers trained on intervention data from 100+ animals predict responses to unseen interventions, improving with data scale.
+\end{bullets}
+
+\entry{Tsinghua University and MIT Brain and Cognitive Sciences}{Mar 2021 -- Dec 2023}{Undergraduate Researcher / Visiting Student}{}
+\begin{bullets}
+\item Meta-learned Hebbian plasticity in RNNs for few-shot learning (ICLR 2023, first author); multi-system models of working memory (COSYNE 2023, co-first author).
+\end{bullets}
+
+\section{Skills}
+\textbf{ML:} post-training (SFT, RL, reward models, verifiers), diffusion and flow matching, image and video generation and editing, inference acceleration, transformers, VLMs, evaluation (VLM judges, human studies) \\
+\textbf{Tools:} Python, PyTorch, JAX, C/C++
+
+\section{Publications}
+\begin{publist}
+\pubSlider
+\pubVerify
+\pubPOCO
+\pubHebbian
+\pubCosyneDist
+\pubCosyneCausal
+\pubNMRNN
+\pubWM
+\end{publist}
+{\small $^*$Equal contribution. $^\dagger$Co-senior authors.}
+
+\section{Honors}
+\honorsresume
+
+\end{document}

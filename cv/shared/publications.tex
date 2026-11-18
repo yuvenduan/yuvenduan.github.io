@@ -1,0 +1,73 @@
+% Single source of truth for publications. Each document \input's this file and
+% then picks/orders entries with \pubX inside a publist environment.
+%
+% Each document defines \reviewvenue before \input'ing this file, e.g.
+%   \newcommand{\reviewvenue}{Under review}            (public academic CV)
+%   resumes read it from ../private/reviewvenue.tex (gitignored) if present, so the
+%   venue of double-blind submissions never appears in this public repo.
+
+\newcommand{\me}{\textbf{Yu Duan}}
+
+% ---- Conference papers ------------------------------------------------------
+\newcommand{\pubPOCO}{\pub{https://openreview.net/forum?id=Xma2G1ak3H}
+  {POCO: Scalable Neural Forecasting through Population Conditioning}
+  {\me, Hamza Tahir Chaudhry, Misha B. Ahrens, Christopher D. Harvey, Matthew G. Perich, Karl Deisseroth$^\dagger$, Kanaka Rajan$^\dagger$}
+  {Advances in Neural Information Processing Systems (NeurIPS), 2025; Computational and Systems Neuroscience (COSYNE), 2026}\label{pub:poco}}
+
+\newcommand{\pubHebbian}{\pub{https://openreview.net/forum?id=2WklawyeI08}
+  {Hebbian and Gradient-based Plasticity Enables Robust Memory and Rapid Learning in RNNs}
+  {\me, Zhongfan Jia, Qian Li, Yi Zhong, Kaisheng Ma}
+  {International Conference on Learning Representations (ICLR), 2023}\label{pub:hebbian}}
+
+% ---- Under review -----------------------------------------------------------
+\newcommand{\pubSlider}{\pub{}
+  {SliderField: Fast Dense Sliders via Gaussian Random Fields}
+  {\me, Silong Yong, Soo Ye Kim, Yilin Wang, Zhixin Shu, Tianyu Wang, Mang Tik Chiu, Xu Ma, Ayush Shrivastava, Ding Liu, Lingzhi Zhang, Yuqian Zhou, Eli Shechtman, Sohrab Amirghodsi, Xiaohang Zhan}
+  {\reviewvenue, 2026}\label{pub:slider}}
+
+\newcommand{\pubVerify}{\pub{}
+  {Agentic Verification for Faithful Image Editing}
+  {Silong Yong, \me, Yilin Wang, Mang Tik Chiu, Ayush Shrivastava, Zhixin Shu, Yuqian Zhou, Xu Ma, Ding Liu, Lingzhi Zhang, Eli Shechtman, Sohrab Amirghodsi, Yaqi Xie, Katia P. Sycara, Xiaohang Zhan}
+  {\reviewvenue, 2026}\label{pub:verify}}
+
+% Short-author variants for 1-page resumes
+\newcommand{\pubSliderShort}{\pub{}
+  {SliderField: Fast Dense Sliders via Gaussian Random Fields}
+  {\me, Silong Yong, Soo Ye Kim, \ldots, Eli Shechtman, Sohrab Amirghodsi, Xiaohang Zhan}
+  {\reviewvenue, 2026}}
+
+\newcommand{\pubVerifyShort}{\pub{}
+  {Agentic Verification for Faithful Image Editing}
+  {Silong Yong, \me, Yilin Wang, \ldots, Katia P. Sycara, Xiaohang Zhan}
+  {\reviewvenue, 2026}}
+
+% ---- Abstracts --------------------------------------------------------------
+\newcommand{\pubCosyneCausal}{\pub{}
+  {Multi-animal Models of Neural Dynamics Predict Responses to Unseen Perturbations}
+  {\me, Hamza Tahir Chaudhry, Kayvon Daie, Matthew G. Perich, Kanaka Rajan}
+  {Submitted to Computational and Systems Neuroscience (COSYNE), 2027}\label{pub:causal}}
+
+\newcommand{\pubCosyneDist}{\pub{}
+  {The Average Never Happens: Distributional Tests for Neural Dynamics Models}
+  {\me, Matthew G. Perich, Hamza Tahir Chaudhry, Kanaka Rajan}
+  {Submitted to Computational and Systems Neuroscience (COSYNE), 2027}\label{pub:dist}}
+
+\newcommand{\pubNMRNN}{\pub{}
+  {Modeling Rapid Neuromodulation in the Cortex-Basal Ganglia-Thalamus Loop}
+  {Julia Costacurta$^*$, \me$^*$, Kanaka Rajan, Scott Linderman, John Assad}
+  {Computational and Systems Neuroscience (COSYNE), 2025}\label{pub:nmrnn}}
+
+\newcommand{\pubWM}{\pub{https://www.biorxiv.org/content/10.1101/2023.03.30.534982v1}
+  {Natural Constraints Explain Working Memory Capacity Limitations in Sensory-Cognitive Models}
+  {Yudi Xie$^*$, \me$^*$, Aohua Cheng, Pengcen Jiang, Christopher Cueva, Guangyu Robert Yang}
+  {Computational and Systems Neuroscience (COSYNE), 2023; Cognitive Computational Neuroscience (CCN), 2022}\label{pub:wm}}
+
+% ---- Compact one-line versions for 1-page resumes ---------------------------
+\newcommand{\cpubPOCO}{\cpub{https://openreview.net/forum?id=Xma2G1ak3H}{POCO: Scalable Neural Forecasting through Population Conditioning}{\textbf{Y.~Duan} et al.}{NeurIPS 2025; COSYNE 2026}}
+\newcommand{\cpubHebbian}{\cpub{https://openreview.net/forum?id=2WklawyeI08}{Hebbian and Gradient-based Plasticity Enables Robust Memory and Rapid Learning in RNNs}{\textbf{Y.~Duan} et al.}{ICLR 2023}}
+\newcommand{\cpubSlider}{\cpub{}{SliderField: Fast Dense Sliders via Gaussian Random Fields}{\textbf{Y.~Duan} et al.}{\reviewvenue}}
+\newcommand{\cpubVerify}{\cpub{}{Agentic Verification for Faithful Image Editing}{S.~Yong, \textbf{Y.~Duan} et al.}{\reviewvenue}}
+\newcommand{\cpubCosyneCausal}{\cpub{}{Multi-animal Models of Neural Dynamics Predict Responses to Unseen Perturbations}{\textbf{Y.~Duan} et al.}{COSYNE 2027 (submitted)}}
+\newcommand{\cpubCosyneDist}{\cpub{}{The Average Never Happens: Distributional Tests for Neural Dynamics Models}{\textbf{Y.~Duan} et al.}{COSYNE 2027 (submitted)}}
+\newcommand{\cpubNMRNN}{\cpub{}{Modeling Rapid Neuromodulation in the Cortex-Basal Ganglia-Thalamus Loop}{J.~Costacurta$^*$, \textbf{Y.~Duan}$^*$ et al.}{COSYNE 2025}}
+\newcommand{\cpubWM}{\cpub{https://www.biorxiv.org/content/10.1101/2023.03.30.534982v1}{Natural Constraints Explain Working Memory Capacity Limitations in Sensory-Cognitive Models}{Y.~Xie$^*$, \textbf{Y.~Duan}$^*$ et al.}{COSYNE 2023}}
